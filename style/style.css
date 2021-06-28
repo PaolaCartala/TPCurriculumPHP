@@ -1,0 +1,578 @@
+/* || RESET */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth; 
+}
+
+/* || BODY */
+/*cuerpo de la pagina*/
+body {
+    font-family: 'Rajdhani', sans-serif;
+    text-align: justify;
+}
+/* header */
+#big_image {
+    background-image: url("../img/macbook-computer-hd-wallpaper-1920x1200-10095.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2%;
+}
+#dotted {
+    border-bottom: 25px dotted #6E1365;
+    margin-bottom: 2%;
+}
+#header {
+    margin-left: 25%;
+    margin-bottom: 33%;
+}
+header > h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 14vw;
+    color:#FB3640;
+    font-weight: 500 !important;
+}
+#about_me > h2 {
+    font-family: 'New Tegomin', serif;
+    font-size: 7vw;
+    color: #6E1365;
+    margin-left: 3%;
+    font-weight: 500 !important;
+}
+#about_me > p {
+    font-size: 2.6vw;
+    text-align: justify;
+    color:#0A1931;
+    font-weight: 600;
+    margin: 1% 3%;
+    padding-bottom: 2%;
+}
+
+/*menu de navegacion*/
+#nav-bar {
+    font-size: 4vw;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+}
+nav li {
+    display:inline;
+    padding: 22px;
+}
+#nav-bar li:hover {
+    color: #6a2c70 !important;
+}
+nav li a {
+    text-decoration: none !important;
+    color: #FB3640;
+    font-weight: 700;
+}
+nav li a:hover {
+    color: #6a2c70 !important;
+    font-weight: 700;
+}
+
+/* || MAIN */
+main {
+    padding: 2vw;
+    font-size: 20px;
+}
+/*titulos*/
+#experiencia {
+    background-image: url("../img/black-tie-brands.svg");
+    background-position: left;
+    background-repeat: repeat-y;
+    background-origin: content-box;
+    padding: 0.5% 20%;
+    margin-bottom: 5%;
+    color: #000 !important;
+    font-family: 'Amatic SC', cursive !important;
+    text-align: center !important;
+    font-size: 15vh !important;
+    background-color:#FDCA40 !important;
+    margin-bottom: 3% !important;
+    margin-top: 3% !important;
+    font-weight: 700 !important;
+}
+/* seccion paginas creadas */
+#galeria {
+    background-color: #0a1931;
+    padding-bottom: 3%;
+}
+.paginas {
+    margin-bottom: 3%;
+}
+.paginas > h3 {
+    background-color: #475365;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+    font-size: 8vh;
+    margin-bottom: 3%;
+    padding: 2% 0%;
+}
+.link_shar_text {
+    font-size: 5vh;
+    font-weight: 700;
+    color:#0a1931 !important;
+}
+.link_shar {
+    color:#0a1931 !important; 
+    text-decoration: none !important;
+}
+.link_shar_text:hover {
+    color:#FB3640 !important;
+}
+#p_shar {
+    font-size: 4vh;
+    color: #000;
+    font-weight: 600;
+}
+/* resto de experiencias */
+.experiencia_cont {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.cont_img {
+    width: 33%;
+    background-color: #0a1931;
+}
+.cont_img > h3 {
+    font-size: 4vh;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    margin: 3% 1%;
+}
+.cont_img > p {
+    color: #FFF;
+    text-align: center;
+    padding: 2% 1%;
+}
+.img_t {
+    border-radius: 5%;
+    border: 2px solid #000;
+    width: 96%;
+    height: 40vh;
+    margin: 2%;
+}
+#educacion {
+    background-image: url("../img/graduation-cap-solid.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-origin: content-box !important;
+    padding: 0.5% 20% !important;
+    color: #000 !important;
+    font-family: 'Amatic SC', cursive !important;
+    text-align: center !important;
+    font-size: 15vh !important;
+    background-color:#FDCA40 !important;
+    margin-bottom: 3% !important;
+    margin-top: 3% !important;
+    font-weight: 700 !important;
+}
+.educacion_cont {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    /*box-sizing: border-box !important; REVISAR */
+}
+.cont_edu3, .cont_edu2 {
+    width: 33%;
+    background-color: #924E8C;
+    margin: 2% 0%;
+}
+.cont_edu1 > h3 {
+    font-family: 'New Tegomin', serif;
+    font-size: 7vh;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.cont_edu1 > ul {
+    list-style-type:square !important;
+}
+.cont_edu1 {
+    margin: 2% 0%;
+    width: 33%;
+    border-radius: 7%;
+    border: 2px solid #924E8C;
+    font-size: 4.5vh;
+    list-style-position:inside;
+    padding: 2%;
+    color: #6E1365;
+    font-weight: 700;
+}
+.cont_edu2 > p, .cont_edu3 > p {
+    font-size: 4vh;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    margin: 3% 1%;
+}
+.img_e {
+    border-radius: 5%;
+    border: 2px solid #000;
+    width: 96%;
+    height: 40vh;
+    margin: 2%;
+}
+#lenguajes {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10vh;
+    color: #000 !important;
+    text-align: center !important;
+    background-color:#FDCA40 !important;
+    margin-bottom: 3% !important;
+    margin-top: 3% !important;
+    font-weight: 700 !important;
+    background-image: url("../img/terminal-solid.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding: 0.5% 5%;
+}
+.container_lenguajes {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 7% 5%;
+}
+.iconos_lenguajes {
+    width: 15vw;
+    height: 15vh;
+}
+#HTML5, #CSS3, #JS, #Python, #PHP {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+}
+#HTML5 {
+    color: #F23602;
+}
+#CSS3 {
+    color: #0352F1;
+}
+#JS {
+    color: #D0DF07;
+}
+#Python {
+    color: #379605;
+}
+#PHP {
+    color: #091769;
+}
+
+/*formulario de contacto*/
+#contacto > h2 {
+    background-image: url("../img/id-badge-solid.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-origin: content-box !important;
+    padding: 0.5% 20% !important;
+    color: #000 !important;
+    font-family: 'Amatic SC', cursive !important;
+    text-align: center !important;
+    font-size: 15vh !important;
+    background-color:#FDCA40 !important;
+    margin-bottom: 3% !important;
+    margin-top: 3% !important;
+    font-weight: 700 !important;
+}
+#formulario {
+    border: 5px dashed #0a1931;
+    font-size: 2vw;
+    display:flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    text-align: center;
+    width: 50vw;
+    margin: 2% 23%;
+    font-weight: 700;
+    box-sizing: content-box;
+    padding: 2%;
+}
+[placeholder] {
+    margin-bottom: 3%;
+    font-weight: 700;
+}
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.button {
+    width: 140px;
+    height: 45px;
+    margin-bottom: 3%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4vh;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 800;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.button:hover {
+    background-color: #6E1365;
+    box-shadow: 0px 15px 20px rgba(184, 59, 94, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+/* || FOOTER */
+#pie-pag {
+    background-color: #0a1931;
+    color:#000000;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+/*sello*/
+.parrafo-footer {
+    float:left;
+    margin:3%;
+    margin-right: 5%;
+    flex: 0.7;
+}
+#sello {
+    border: 2px dashed #000000;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.parrafo-footer p {
+    font-family: 'New Tegomin', serif;
+    font-size: 2em;
+    overflow-x: visible;
+    position: absolute;
+    margin: 3%;
+}
+#direccion_telefono {
+    margin-top: 2%;
+    flex:2;
+}
+#direccion_telefono > p {
+    font-size: 3vh;
+    font-weight: bold;
+    margin: 0%;
+}
+#location {
+    background-image: url("../img/map-pin-solid.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 5%;
+}
+#redes {
+    flex:1;
+}
+.icono-pie {
+    float:right;
+    width: 20%;
+    margin: 5%;
+    margin-top: 15%;
+    padding-right: 8%;
+    box-sizing: content-box !important; /*anulo bootstrap*/
+}
+#cont_flecha_arriba {
+    background-color: #FDCA40;
+}
+#flecha_arriba {
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 15vh;
+    float: right;
+    flex: 1;
+    margin-top: 13%;
+}
+/* || MEDIA QUERIES */
+/* tablets */
+@media screen and (max-width: 768px) {
+    header > h1 {
+        font-size: 8em;
+    }
+    #about_me > p {
+        font-size: 3.2vw;
+    }
+    #nav-bar {
+        font-size: 3.5em;
+    }
+    #experiencia {
+        font-size: 3.3em !important;
+        padding: 0.5% 15%;
+    }
+    .paginas > h3 {
+        font-size: 5vh;
+    }
+    .link_shar_text {
+        font-size: 4vh;
+    }
+    #p_shar {
+        font-size: 0.1vh !important;
+        display: none !important;
+    }
+    .img_t {
+        height: 10em;
+    }
+    #educacion {
+        font-size: 3.3em !important;
+    }
+    .cont_edu1 > h3 {
+        font-size: 5vh;
+    }
+    .cont_edu1 {
+        border-radius: 5px;
+        font-size: 3vh;
+    }
+    .img_e {
+        height: 10em;
+    }
+    #lenguajes {
+        font-size: 2em;
+    }
+    .container_lenguajes {
+        flex-flow: row wrap;
+        padding: 0% 10%;
+    }
+    #contacto > h2 {
+        font-size: 3.3em !important;
+    }
+    #formulario {
+        width: 80%;
+        font-size: 2.5em !important;
+        margin: 7%;
+    }
+    [placeholder] {
+        font-size: 0.5em !important;
+    }
+    #direccion_telefono {
+        display: none;
+    }
+    .icono-pie {
+        margin-top: 10%;
+        width: 15%;
+    }
+    #flecha_arriba {
+        width: 80%;
+        margin-top: 1%;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 640px) {
+    header > h1 {
+        font-size: 5em;
+    }
+    #about_me > p {
+        font-size: 3.2vw;
+    }
+    #dotted {
+        border-bottom: 15px dotted #6E1365;
+    }
+    #nav-bar {
+        font-size: 2em;
+    }
+    #experiencia {
+        font-size: 2em !important;
+        padding: 0.5% 15%;
+    }
+    #galeria {
+        height: 360px;
+    }
+    .img-galeria {
+        height: 300px;
+    }
+    .paginas > h3 {
+        font-size: 4vh;
+    }
+    .link_shar_text {
+        font-size: 4vh;
+    }
+    #p_shar {
+        font-size: 0.1vh !important;
+        display: none !important;
+    }
+    .img_t {
+        height: 7em;
+    }
+    .cont_img > h3 {
+        font-size: 3vh;
+    }
+    .cont_img > p {
+        font-size: 2vh;
+    }
+    #educacion {
+        font-size: 2em !important;
+        padding: 0.5% 2%;
+    }
+    .cont_edu1 > h3 {
+        font-size: 4vh;
+    }
+    .cont_edu1 {
+        border-radius: 5px;
+        font-size: 2vh;
+    }
+    .img_e {
+        height: 7em;
+    }
+    .cont_edu2 > p, .cont_edu3 > p {
+        font-size: 3vh;
+    }
+    #lenguajes {
+        font-size: 1em;
+    }
+    .container_lenguajes {
+        flex-flow: row wrap;
+        padding: 0% 5%;
+    }
+    #contacto > h2 {
+        font-size: 2em !important;
+    }
+    #formulario {
+        width: 80%;
+        font-size: 1.5em !important;
+        margin: 7%;
+    }
+    [placeholder] {
+        font-size: 0.5em !important;
+    }
+    .parrafo-footer {
+        flex: 1;
+        font-size: 0.7em;
+    }
+    #direccion_telefono {
+        display: none;
+    }
+    .icono-pie {
+        margin-top: 20%;
+        width: 25%;
+    }
+    #flecha_arriba {
+        width: 60%;
+        margin: 1% 20%;
+    }
+}
+
+
+
+
+
+
+
+
+
